@@ -25,7 +25,7 @@ This study will enable a company to map their application to non-functional requ
 **Piet Cordemans** <br/>
 VIVES campus Brugge
 
-[EAVISE](www.eavise.be) <br/>
+[EAVISE](http://www.eavise.be) <br/>
 **prof. Toon Goedemé & dr. Kristof Van Beeck** <br/>
 KU Leuven campus De Nayer
 
