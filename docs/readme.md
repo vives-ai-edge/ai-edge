@@ -1,6 +1,6 @@
 ![AI@EDGE](./media/ai-edge.png)
 
-# VLAIO TETRA project
+# AI@EDGE - VLAIO TETRA project
 
 > applying Artificial Intelligence on Edge devices using Deep Learning with Embedded optimizations
 
