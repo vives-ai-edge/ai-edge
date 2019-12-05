@@ -1,16 +1,16 @@
-# AI@EDGE
+![AI@EDGE](./media/ai-edge.png)
 
-## VLAIO TETRA project
+# VLAIO TETRA project
 
 > applying Artificial Intelligence on Edge devices using Deep Learning with Embedded optimizations
 
 **Starts March 2020**
 
-### Context
+## Context
 
 Typically, a Deep Learning algorithm is trained on a powerful server with a big set of data. Then the trained network is loaded in an application which deals with real data. This step is called inference. However, inference does not have to be applied at the computer system which was used for training. Therefore, it is possible to apply deep learning on systems which are less powerful, more energy efficient, and less dependent on a network. This opens several opportunities. As the data stays local, the AI works autonomous. This is important for users who do not want that their machine is dependent on a connection with the Internet. Moreover, local processing is vital for applications which value privacy. Furthermore, inference enables systems with a limited bandwidth which might not be able to transmit all data, to benefit from deep learning. Additionally, time-critical systems do not allow for an application with a high latency, as in the time which is needed to send data to the server back and forth.
 
-### Goal
+## Goal
 
 The goal of this project is to study the feasibility of deep learning and added value of AI in applications for low-cost embedded systems, i.e. edge devices. More specifically, we are targeting small and cheap embedded platforms, such as microcontrollers (e.g. ARM CORTEX-M or AVR ATmega) and system processors (e.g. ARM CORTEX-A as used in the Raspberry Pi or similar).
 
@@ -19,7 +19,7 @@ We want to make an overview of libraries, such as Tensorflow Lite, µTensor, CMS
 This study will enable a company to map their application to non-functional requirements such as the available processing power and memory, the number of features in the AI application, energy consumption, latency, etc. Next, we will build a proof of concept based on a few case studies. Industrial-relevant case studies will test the embedded system with AI to the non-functional requirements and deduce a manual with best-practices. This manual and a basic application will provide the basis of a workshop in order to get employees familiar with this technology. 
 
 
-### Partners
+## Partners
 
 [IoT-Incubator](https://iot-incubator.be) <br/>
 **Piet Cordemans** <br/>
@@ -33,7 +33,7 @@ KU Leuven campus De Nayer
 ![EAVISE](./media/eavise.png)
 ![KU Leuven](./media/kuleuven.png)
 
-### User group
+## User group
 
 * 6WOLVES
 * Digipolis
@@ -41,6 +41,7 @@ KU Leuven campus De Nayer
 * DSP Valley
 * E.D.&A.
 * Edgise
+* Jacoti
 * Melexis Technologies
 * Picanol
 * Qmineral
