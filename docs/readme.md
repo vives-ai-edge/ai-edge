@@ -4,8 +4,6 @@
 
 > applying Artificial Intelligence on Edge devices using Deep Learning with Embedded optimizations
 
-**Starts March 2020**
-
 ## Context
 
 Typically, a Deep Learning algorithm is trained on a powerful server with a big set of data. Then the trained network is loaded in an application which deals with real data. This step is called inference. However, inference does not have to be applied at the computer system which was used for training. Therefore, it is possible to apply deep learning on systems which are less powerful, more energy efficient, and less dependent on a network. This opens several opportunities. As the data stays local, the AI works autonomous. This is important for users who do not want that their machine is dependent on a connection with the Internet. Moreover, local processing is vital for applications which value privacy. Furthermore, inference enables systems with a limited bandwidth which might not be able to transmit all data, to benefit from deep learning. Additionally, time-critical systems do not allow for an application with a high latency, as in the time which is needed to send data to the server back and forth.
