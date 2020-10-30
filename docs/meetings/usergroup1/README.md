@@ -1,4 +1,4 @@
-# Kick-Off Meeting
+# Kick-Off Meeting AI@EDGE
 
 Date: 03 march 2020
 
