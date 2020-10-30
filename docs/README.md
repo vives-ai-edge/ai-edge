@@ -46,3 +46,7 @@ KU Leuven campus De Nayer
 * ScioTeq 
 * Sensotec
 * Transport & Mobility Leuven
+
+### Meetings
+
+* 03/03/2020 [kick-off meeting](meetings/usergroup1)

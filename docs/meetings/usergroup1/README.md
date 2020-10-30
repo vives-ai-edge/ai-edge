@@ -2,6 +2,32 @@
 
 Date: 03 march 2020
 
+* Present:
+  * Willem Romanus (6Wolves)
+  * Fabrice Verhaert (6Wolves)
+  * Gert Van de Wouwer (Digipolis)
+  * Daan Pape (DPTechnics)
+  * Bjorn Van De Vondel (DSP Valley)
+  * Kris Bellemans (E.D.&A.)
+  * Nick Destrycker (Edgise)
+  * Chandu Kancharla (KU Leuven - Brugge)
+  * Ben Minnaert (Odisee)
+  * Xavier Chesterman (Picanol)
+  * Patick Puissant (Picanol)
+  * Rieko Adriaens (Qmineral)
+  * Edouard Charvet (Scioteq)
+  * Frank Allemeersch (Sensotec)
+  * Peter Papics (Transport & Mobility Leuven)
+* Excused:
+  * Luc Buydens (Melexis)
+* Project team members:
+  * Toon Goedemé (KU Leuven - De Nayer)
+  * Kristof Van Beeck (KU Leuven - De Nayer)
+  * Maarten Vandersteegen (KU Leuven De Nayer)
+  * Piet Cordemans (VIVES)
+  * Sille Van Landschoot (VIVES)
+  * Nico De Witte (VIVES)
+
 ## Introduction
 
 * Introduction of IoT incubator
@@ -100,7 +126,7 @@ Partners introduced themselves, their company and the goals they want to achieve
     * City project: detect people, detect facial expressions
 
 * Melexis
-  * Contact person: Luc Buydens (excused)
+  * Contact person: Luc Buydens 
   * Use case:
     * Small thermal infrared sensor applications. For example hand recognition in cars. Works already, but now it needs to be optimized
 
