@@ -20,6 +20,7 @@ Date: 03 march 2020
   * Peter Papics (Transport & Mobility Leuven)
 * Excused:
   * Luc Buydens (Melexis)
+  * Anke Van Campen (VLAIO - project advisor)
 * Project team members:
   * Toon Goedemé (KU Leuven - De Nayer)
   * Kristof Van Beeck (KU Leuven - De Nayer)
@@ -27,6 +28,8 @@ Date: 03 march 2020
   * Piet Cordemans (VIVES)
   * Sille Van Landschoot (VIVES)
   * Nico De Witte (VIVES)
+
+[User group meeting slides](https://www.slideshare.net/secret/IKXSU9bglFMYA)
 
 ## Introduction
 
