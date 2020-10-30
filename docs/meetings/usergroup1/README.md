@@ -13,7 +13,7 @@ Date: 03 march 2020
   * Chandu Kancharla (KU Leuven - Brugge)
   * Ben Minnaert (Odisee)
   * Xavier Chesterman (Picanol)
-  * Patick Puissant (Picanol)
+  * Patrick Puissant (Picanol)
   * Rieko Adriaens (Qmineral)
   * Edouard Charvet (Scioteq)
   * Frank Allemeersch (Sensotec)
