@@ -35,7 +35,7 @@ KU Leuven campus De Nayer
 
 * 6WOLVES
 * Digipolis
-* DP Technics
+* DPTechnics
 * DSP Valley
 * E.D.&A.
 * Edgise
