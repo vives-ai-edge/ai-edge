@@ -27,25 +27,11 @@ VIVES campus Brugge
 **prof. Toon Goedemé & dr. Kristof Van Beeck** <br/>
 KU Leuven campus De Nayer
 
+![VIVES](./media/vives-smile.png)
 
+![EAVISE](./media/eavise.png)
 
-<p><img src="./media/vives-smile.png" align="left" alt="VIVES" height="95" /><p/>
-
-
-
-
-
-<p><img src="./media/eavise.png" align="left" alt="EAVISE" height="95" /><p/>
-
-
-
-
-
-<p><img src="./media/kuleuven.png" align="left" alt="KU Leuven" height="95" /><p/>
-
-
-
-
+![KU Leuven](./media/kuleuven.png)
 
 ## User group
 
@@ -71,13 +57,13 @@ KU Leuven campus De Nayer
   * 28/01/2021 [Usergroup meeting 2](meetings/usergroup2)
   * 29/06/2021 [Usergroup meeting 3](meetings/usergroup3)
 * Upcoming:
-  * 29/04/2022 Usergroup meeting 4
+  * **29/04/2022** Usergroup meeting 4
   * TBD Final Symposium
 
 ## Workshops
 
 - Past:
-  - 9 december 2021: Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI
-  - 29 maart 2022: STEM workshop met Edge Impulse
+  - **9 december 2021**: [Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI](https://www.vives.be/nl/over-vives/kalender/artificiele-intelligentie-op-een-microcontroller-hands-workshop-embedded-ai)
+  - **29 maart 2022**: STEM workshop met Edge Impulse
 - Upcoming:
-  - 22 april 2022: Workshop embedded vision
+  - **22 april 2022**: Workshop embedded vision
