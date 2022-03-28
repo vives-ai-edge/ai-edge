@@ -35,7 +35,7 @@ KU Leuven campus De Nayer
 
 * 6WOLVES
 * Digipolis
-* DP Technics
+* DPTechnics
 * DSP Valley
 * E.D.&A.
 * Edgise
@@ -49,4 +49,7 @@ KU Leuven campus De Nayer
 
 ### Meetings
 
-* 03/03/2020 [kick-off meeting](meetings/usergroup1)
+* 03/03/2020 [Usergroup kick-off meeting](meetings/usergroup1)
+* 28/01/2021 [Usergroup meeting 2](meetings/usergroup2)
+* 29/06/2021 [Usergroup meeting 3](meetings/usergroup3)
+
