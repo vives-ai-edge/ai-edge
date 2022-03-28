@@ -27,11 +27,11 @@ VIVES campus Brugge
 **prof. Toon Goedemé & dr. Kristof Van Beeck** <br/>
 KU Leuven campus De Nayer
 
-<img src="./media/vives-smile.png" align="left" alt="VIVES" height="95" />
+<img src="./media/vives-smile.png" align="left" alt="VIVES" height="95" />\
 
-<img src="./media/eavise.png" align="left" alt="EAVISE" height="95" />
+<img src="./media/eavise.png" align="left" alt="EAVISE" height="95" />\
 
-<img src="./media/kuleuven.png" align="left" alt="KU Leuven" height="95" />
+<img src="./media/kuleuven.png" align="left" alt="KU Leuven" height="95" />\
 
 ## User group
 
