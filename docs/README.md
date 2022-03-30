@@ -63,7 +63,8 @@ KU Leuven campus De Nayer
 ## Workshops
 
 - Past:
-  - **9 december 2021**: [Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI](https://www.vives.be/nl/over-vives/kalender/artificiele-intelligentie-op-een-microcontroller-hands-workshop-embedded-ai)
-  - **29 maart 2022**: STEM workshop met Edge Impulse
+  - 9 december 2021: [Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI](https://www.vives.be/nl/over-vives/kalender/artificiele-intelligentie-op-een-microcontroller-hands-workshop-embedded-ai)
+    - [Course material](https://ai-edge-workshop.netlify.app/)
+  - 29 maart 2022: STEM workshop met Edge Impulse
 - Upcoming:
   - **22 april 2022**: Workshop embedded vision
