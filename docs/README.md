@@ -67,4 +67,5 @@ KU Leuven campus De Nayer
     - [Course material](https://ai-edge-workshop.netlify.app/)
   - 29 maart 2022: STEM workshop met Edge Impulse
 - Upcoming:
-  - **22 april 2022**: Workshop embedded vision
+  - **22 april 2022**: Hands-on workshop "Embedded Computer Vision Optimization"
+    - **[Register here!](https://iiw.kuleuven.be/onderzoek/eavise/workshop_embedded_cv)**
