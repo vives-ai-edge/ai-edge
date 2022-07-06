@@ -53,9 +53,8 @@ KU Leuven campus De Nayer
   * 03/03/2020: [Usergroup meeting 1: Kickoff](meetings/usergroup1)
   * 28/01/2021: [Usergroup meeting 2](meetings/usergroup2)
   * 29/06/2021: [Usergroup meeting 3](meetings/usergroup3)
-* Upcoming:
-  * **29/04/2022**: Usergroup meeting 4
-  * TBA: Final Symposium
+  * 29/04/2022: [Usergroup meeting 4](meetings/usergroup4)
+  * 21/06/2022: [Final Symposium](meetings/finalsymposium)
 
 ## Workshops
 
