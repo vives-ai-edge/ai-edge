@@ -20,11 +20,11 @@ This study will enable a company to map their application to non-functional requ
 ## Partners
 
 [IoT-Incubator](https://iot-incubator.be) <br/>
-**Jonas Lannoo & Piet Cordemans** <br/>
+**dr. ing. Jonas Lannoo & Piet Cordemans** <br/>
 VIVES campus Brugge
 
 [EAVISE](http://www.eavise.be) <br/>
-**prof. Toon Goedemé & dr. Kristof Van Beeck** <br/>
+**Prof. Toon Goedemé & dr. ing. Kristof Van Beeck** <br/>
 KU Leuven campus De Nayer
 
 ![VIVES](./media/vives-smile.png)
