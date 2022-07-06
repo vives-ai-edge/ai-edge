@@ -7,9 +7,10 @@ module.exports = {
         }
       },
     themeConfig: {
-    nav: [
-        { text: 'IoT Incubator', link: 'https://iot-incubator.be/' },
-        { text: 'EAVISE', link: 'https://iiw.kuleuven.be/onderzoek/eavise' }
+        nav: [
+            { text: 'IoT Incubator', link: 'https://iot-incubator.be/' },
+            { text: 'EAVISE', link: 'https://iiw.kuleuven.be/onderzoek/eavise' }
         ]
-    }
+      },
+    serviceWorker: true
   }
