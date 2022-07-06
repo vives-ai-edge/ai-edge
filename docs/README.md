@@ -36,12 +36,9 @@ KU Leuven campus De Nayer
 ## User group
 
 * 6WOLVES
-* Digipolis
 * DPTechnics
-* DSP Valley
 * E.D.&A.
 * Edgise
-* Jacoti
 * Melexis Technologies
 * Picanol
 * Qmineral
