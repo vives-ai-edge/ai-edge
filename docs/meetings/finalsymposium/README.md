@@ -15,16 +15,7 @@ Date: 21 July 2022
 
 [User group meeting slides](https://www.slideshare.net/secret/732FDiBsbB3meE)
 
-![Final symposium presentation slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
-
-<script>
-const pdfUrl = "https://ai-edge.be/AI-EDGE-Slotsymposium.pdf";
-var md = require('markdown-it')({html:true})
-                .use(require('markdown-it-pdf'), {
-        showUrl: true
-        });
-md.render(`@[pdf](${pdfUrl})`);
-</script>
+@[Final symposium presentation slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
 * H~2~O
 
