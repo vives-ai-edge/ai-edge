@@ -59,10 +59,13 @@ KU Leuven campus De Nayer
 ## Workshops
 
 - Past:
-  - 09 Fecember 2021: Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI
+  - 09 December 2021: Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI (2x)
     - [Course material](https://ai-edge-workshop.netlify.app/)
-  - 29 March 2022: STEM workshop with Edge Impulse
+  - 18 May 2022: Hands-on workshop embedded AI with Edge Impulse
+  - 29 March 2022: STEM workshop embedded vision with Edge Impulse
+  - 02 April 2022: STEM workshop embedded vision with Edge Impulse (2x)
+  - 03 June 2022: STEM workshop embedded vision with Edge Impulse
   - 22 April 2022: Hands-on workshop "Embedded Computer Vision Optimization"
 - Upcoming:
-  - **15 september 2022: Post Universitary Centrum Summerschool - Embedded AI for Industry**
+  - **14-16 September 2022: Post Universitary Centrum Summerschool - Embedded AI for Industry**
     - [Register here!](https://puc.kuleuven.be/nl/opleiding/embedded_ai_for_industry-xdojwgdenwla3bpz)
