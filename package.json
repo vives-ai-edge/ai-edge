@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pcordemans/ai-edge#readme",
   "dependencies": {
+    "markdown-it-pdf": "^1.1.6",
     "vuepress": "^0.14.8"
   }
 }
