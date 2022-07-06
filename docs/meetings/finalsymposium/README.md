@@ -15,7 +15,7 @@ Date: 21 July 2022
 
 [User group meeting slides](https://www.slideshare.net/secret/732FDiBsbB3meE)
 
-@[Final symposium presentation slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
+@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
 * H~2~O
 

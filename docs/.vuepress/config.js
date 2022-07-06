@@ -4,7 +4,7 @@ module.exports = {
     markdown: {
         config: md => {
           md.use(require('markdown-it-pdf'), {
-            showUrl: true
+            showUrl: false
           });
           md.use(require('markdown-it-sub'));
         }
