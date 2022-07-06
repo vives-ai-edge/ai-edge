@@ -6,8 +6,6 @@ module.exports = {
           md.use(require("markdown-it-pdf"), {
             showUrl: true
           });
-          const pdfUrl = "https://ai-edge.be/AI-EDGE-Slotsymposium.pdf";
-          md.render(`@[pdf](${pdfUrl})`);
         }
       },
     themeConfig: {
