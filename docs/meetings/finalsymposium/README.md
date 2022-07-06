@@ -17,16 +17,14 @@ Date: 21 July 2022
 
 ![Final symposium presentation slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
-<!-- <script>
+<script>
 const pdfUrl = "https://ai-edge.be/AI-EDGE-Slotsymposium.pdf";
-document.addEventListener("DOMContentLoaded", () => {
-    const md = markdownit({html:true})
-                    .use(require(markdown-it-pdf"), {
-            showUrl: true
-          });
-    md.render(`@[pdf](${pdfUrl})`);
-})
-</script> -->
+const md = markdownit({html:true})
+                .use(require(markdown-it-pdf"), {
+        showUrl: true
+        });
+md.render(`@[pdf](${pdfUrl})`);
+</script>
 
 * 
 
