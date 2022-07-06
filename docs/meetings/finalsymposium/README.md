@@ -20,7 +20,7 @@ Date: 21 July 2022
 <script>
 const pdfUrl = "https://ai-edge.be/AI-EDGE-Slotsymposium.pdf";
 const md = markdownit({html:true})
-                .use(require(markdown-it-pdf"), {
+                .use(require("markdown-it-pdf"), {
         showUrl: true
         });
 md.render(`@[pdf](${pdfUrl})`);
