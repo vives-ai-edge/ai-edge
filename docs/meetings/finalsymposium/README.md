@@ -13,11 +13,16 @@ Date: 21 July 2022
   * Sille Van Landschoot (VIVES)
   * Jonas Lannoo (VIVES)
 
-[User group meeting slides](https://www.slideshare.net/secret/732FDiBsbB3meE)
+## Presentation Slides
 
-@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
-
-* H~2~O
+Test 1
+@[pdf](./assets/AI-EDGE-Slotsymposium.pdf)
+Test 2
+@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf){ height=500px }
+Test 3
+[User group meeting slides](./assets/AI-EDGE-Slotsymposium.pdf)
+Test 4
+[User group meeting slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
 ## Future work
 
