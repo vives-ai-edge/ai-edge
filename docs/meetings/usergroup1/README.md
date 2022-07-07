@@ -1,6 +1,7 @@
 # Kick-Off Meeting AI@EDGE
 
-Date: 03 march 2020
+Date: 03 march 2020 <br/>
+Location: Online - Teams
 
 * Present:
   * Willem Romanus (6Wolves)
@@ -29,7 +30,13 @@ Date: 03 march 2020
   * Sille Van Landschoot (VIVES)
   * Nico De Witte (VIVES)
 
-[User group meeting slides](https://www.slideshare.net/secret/IKXSU9bglFMYA)
+## Presentation Slides
+
+Preview: <br/>
+@[pdf](https://ai-edge.be/UG1.pdf)
+
+Open the presentation in a new page: <br/>
+[User group meeting slides](https://ai-edge.be/UG1.pdf)
 
 ## Introduction
 

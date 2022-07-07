@@ -1,6 +1,6 @@
 # Final Symposium
 
-Date: 21 July 2022
+Date: 21 July 2022 <br/>
 Location: Aula VIVES Hogeschool, Xaverianenstraat 10, 8000 Brugge
 
 * Attendees:
@@ -47,13 +47,11 @@ Location: Aula VIVES Hogeschool, Xaverianenstraat 10, 8000 Brugge
 
 ## Presentation Slides
 
-@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf){ height=600px }
+Preview: <br/>
+@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
-Test 3
-[User group meeting slides](./assets/AI-EDGE-Slotsymposium.pdf)
-
-Open the presentation in a new page:
-[User group meeting slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
+Open the presentation in a new page: <br/>
+[Final symposium slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
 ## Event pictures
 

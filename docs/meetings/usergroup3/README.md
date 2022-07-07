@@ -1,11 +1,12 @@
 # Usergroup meeting 3 AI@EDGE
 
-Date: 29 June 2021
+Date: 29 June 2021 <br/>
+Location: Online - Teams
 
 * Present:
   * 
 * Excused:
-  * 
+  * Anke Van Campen (VLAIO - project advisor)
 * Project team members:
   * Toon Goedemé (KU Leuven - De Nayer)
   * Kristof Van Beeck (KU Leuven - De Nayer)
@@ -14,7 +15,13 @@ Date: 29 June 2021
   * Sille Van Landschoot (VIVES)
   * Jonas Lannoo (VIVES)
 
-[User group meeting slides](https://www.slideshare.net/secret/732FDiBsbB3meE)
+## Presentation Slides
+
+Preview: <br/>
+@[pdf](https://ai-edge.be/UG3.pdf)
+
+Open the presentation in a new page: <br/>
+[User group meeting slides](https://ai-edge.be/UG3.pdf)
 
 * 
 
