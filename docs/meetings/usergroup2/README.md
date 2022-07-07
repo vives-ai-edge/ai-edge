@@ -14,7 +14,7 @@ Date: 28 January 2021
   * Sille Van Landschoot (VIVES)
   * Jonas Lannoo (VIVES)
 
-[User group meeting slides]()
+[User group meeting slides](https://www.slideshare.net/secret/1yjvtAEqm5huRy)
 
 * 
 

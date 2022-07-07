@@ -20,36 +20,52 @@ This study will enable a company to map their application to non-functional requ
 ## Partners
 
 [IoT-Incubator](https://iot-incubator.be) <br/>
-**Piet Cordemans** <br/>
+**dr. ing. Jonas Lannoo & Piet Cordemans** <br/>
 VIVES campus Brugge
 
 [EAVISE](http://www.eavise.be) <br/>
-**prof. Toon Goedemé & dr. Kristof Van Beeck** <br/>
+**Prof. Toon Goedemé & dr. ing. Kristof Van Beeck** <br/>
 KU Leuven campus De Nayer
 
-![VIVES](./media/vives.png)
+![VIVES](./media/vives-smile.png)
+
 ![EAVISE](./media/eavise.png)
+
 ![KU Leuven](./media/kuleuven.png)
 
 ## User group
 
 * 6WOLVES
-* Digipolis
 * DPTechnics
-* DSP Valley
 * E.D.&A.
 * Edgise
-* Jacoti
 * Melexis Technologies
 * Picanol
 * Qmineral
 * ScioTeq 
 * Sensotec
 * Transport & Mobility Leuven
+* LarbitsSisters
 
-### Meetings
+## Meetings
 
-* 03/03/2020 [Usergroup kick-off meeting](meetings/usergroup1)
-* 28/01/2021 [Usergroup meeting 2](meetings/usergroup2)
-* 29/06/2021 [Usergroup meeting 3](meetings/usergroup3)
+* Past:
+  * 03/03/2020: [Usergroup meeting 1: Kickoff](meetings/usergroup1)
+  * 28/01/2021: [Usergroup meeting 2](meetings/usergroup2)
+  * 29/06/2021: [Usergroup meeting 3](meetings/usergroup3)
+  * 29/04/2022: [Usergroup meeting 4](meetings/usergroup4)
+  * 21/06/2022: [Final Symposium](meetings/finalsymposium)
 
+## Workshops
+
+- Past:
+  - 09 December 2021: Artificiële Intelligentie op een microcontroller? Hands-on workshop embedded AI (2x)
+    - [Course material](https://ai-edge-workshop.netlify.app/)
+  - 18 May 2022: Hands-on workshop embedded AI with Edge Impulse
+  - 29 March 2022: STEM workshop embedded vision with Edge Impulse
+  - 02 April 2022: STEM workshop embedded vision with Edge Impulse (2x)
+  - 03 June 2022: STEM workshop embedded vision with Edge Impulse
+  - 22 April 2022: Hands-on workshop "Embedded Computer Vision Optimization"
+- Upcoming:
+  - **14-16 September 2022: Post Universitary Centrum Summerschool - Embedded AI for Industry**
+    - [Register here!](https://puc.kuleuven.be/nl/opleiding/embedded_ai_for_industry-xdojwgdenwla3bpz)
