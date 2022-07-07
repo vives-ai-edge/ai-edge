@@ -15,13 +15,12 @@ Date: 21 July 2022
 
 ## Presentation Slides
 
-Test 1
-@[pdf](./assets/AI-EDGE-Slotsymposium.pdf)
-Test 2
-@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf){ height=500px }
+@[pdf](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf){ height=600px }
+
 Test 3
 [User group meeting slides](./assets/AI-EDGE-Slotsymposium.pdf)
-Test 4
+
+Open the presentation in a new page:
 [User group meeting slides](https://ai-edge.be/AI-EDGE-Slotsymposium.pdf)
 
 ## Future work
