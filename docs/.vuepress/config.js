@@ -15,10 +15,16 @@ module.exports = {
             { text: 'EAVISE', link: 'https://iiw.kuleuven.be/onderzoek/eavise' }
         ],
         sidebar: [
-          '/',
+          {
+            title: 'Homepage',
+            collapsable: true,
+            children: [
+              '/'
+            ]
+          },
           {
             title: 'Usergroup Meetings',
-            collapsable: false,
+            collapsable: true,
             children: [
               ['/meetings/usergroup1/', 'UG Meeting 1'],
               ['/meetings/usergroup2/', 'UG Meeting 2'],
@@ -27,6 +33,40 @@ module.exports = {
               ['/meetings/finalsymposium/', 'Final Symposium']
             ]
           },
+          {
+            title: 'Overview of ...',
+            collapsable: false,
+            children: [
+              ['/overview/hardware/', 'Hardware'],
+              ['/overview/frameworks/', 'Frameworks'],
+              ['/overview/optimalisaties/', 'Optimalisations']
+            ]
+          },
+          ['/bestpractices/', 'Best Practices'],
+          {
+            title: 'Workshops',
+            collapsable: true,
+            children: [
+              ['/workshops/edgeimpulse/', 'Edge Impulse'],
+              ['/workshops/embeddedvision/', 'Embedded Vision'],
+              ['/workshops/stem/', 'STEM']
+            ]
+          },
+          {
+            title: 'Use cases',
+            collapsable: true,
+            children: [
+              ['/usecases/abwriting/', 'AB Writing'],
+              ['/usecases/seatdetection/', 'Seat Detection'],
+              ['/usecases/garagegate/', 'Automatic Garage Gate'],
+              ['/usecases/melexis/', 'Thermal Person Detection'],
+              ['/usecases/tml/', 'Traffic Detection'],
+              ['/usecases/edna/', 'Induction Cooker Touch Sensor'],
+              ['/usecases/larbitssisters/', 'Crypto Miner Car'],
+              ['/usecases/6wolves/', 'Squat Detection'],
+              ['/usecases/skw/', 'Stray Cats']
+            ]
+          }
         ]
       },
     serviceWorker: true
