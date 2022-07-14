@@ -20,11 +20,11 @@ module.exports = {
             title: 'Usergroup Meetings',
             collapsable: false,
             children: [
-              ['/meetings/usergroup1', 'UG Meeting 1'],
-              ['/meetings/usergroup2', 'UG Meeting 2'],
-              ['/meetings/usergroup3', 'UG Meeting 3'],
-              ['/meetings/usergroup4', 'UG Meeting 4'],
-              ['/meetings/finalsymposium', 'Final Symposium']
+              ['/meetings/usergroup1/', 'UG Meeting 1'],
+              ['/meetings/usergroup2/', 'UG Meeting 2'],
+              ['/meetings/usergroup3/', 'UG Meeting 3'],
+              ['/meetings/usergroup4/', 'UG Meeting 4'],
+              ['/meetings/finalsymposium/', 'Final Symposium']
             ]
           },
         ]
