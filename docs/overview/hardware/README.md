@@ -4,10 +4,10 @@ sidebarDepth: 0
 
 # Overview of the hardware targets
 
-## Targets that were used during this project:
+## Targets that were used during this project
 * STM Sensortile (ARM Cortex M4)
 * Raspberry Pi 4 (ARM Cortex A72)
-* ESP-EYE (ESP32 dual core Tensilica LX6)
+* ESP-EYE (ESP32 Tensilica LX6)
 * STM32L073RZ (ARM Cortex M0+)
 * NXP LPC1768 (ARM Cortex M3)
 * STM32F446RE (ARM Cortex M4)
@@ -19,5 +19,5 @@ sidebarDepth: 0
 * STM32F767ZI (ARM Cortex M7)
 * STM32F746G-DISCO (ARM Cortex M7)
 
-## Other targets, not used during this project:
+## Other targets, not used during this project
 * Nvidia Jetson Nano (Quad-core ARM Cortex A57)
