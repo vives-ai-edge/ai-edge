@@ -4,7 +4,7 @@ During this project two specific optimalisation techniques were investigated. On
 
 ## Quantisation
 
-
+Quantisation is an optimalisation step where the weights and bias values of the neural network are converted to a more memory space efficient format. Mostly this conversion is between 32-bit floating point values to 8-bit integer values. This step can improve the memory usage by a factor of four at the most, because it uses four times less bits. It should also improve inference time because the operations used by the microcontroller are 8-bit based instead of 32-bit based. Because of this conversion, the model can perform worse after quantisation.
 
 ## Pruning
 

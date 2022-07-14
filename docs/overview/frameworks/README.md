@@ -88,29 +88,35 @@ PyTorch is an optimized tensor library for deep learning using GPUs and CPUs dev
 
 Facebook (or Meta AI) is also the owner of the Glow compiler. It is referred to as the Pytorch Glow compiler because it is often used with models coming from Pytorch, but it also accepts computational graphs from other frameworks. Glow is a machine learning compiler that accelerates the performance of deep learning frameworks on different hardware platforms. It enables the ecosystem of hardware developers and researchers to focus on building next gen hardware accelerators that can be supported by deep learning frameworks like PyTorch. Glow accepts a computation graph from deep learning frameworks and generates highly optimized code for machine learning accelerators. It contains many machine learning and hardware optimizations like kernel fusion to accelerate model development. 
 
-Pytorch Glow can be compared to the Tensorflow Lite for Microcontrollers tools, but it generate different types of files for the microcontroller. Glow creates compiled files, so binaries, ready for the microcontroller to use. Thus one needs to specify the target that the model will run on when compiling the computational graph. Because Glow compiles the neural network without knowing the rest of the microcontroller its code, it is called ahead-of-time compilation. The compiler converts the neural networks into object files, then the user converts this into a binary image for increased performance and smaller memory footprint as compared to a traditional runtime inference engine. Glow, or graph lowering, compiler derives its name because it lowers a neural network into a two-phase strongly typed intermediate representation. In the first phase, the optimizer performs domain-specific optimizations. The second phase allows the compiler to perform optimizations that take advantage of specialized back-end hardware features. It’s in this second phase that the creator of Glow added specialized support for Arm Cortex Mx cores and Cadence Tensilica HiFi 4 DSP support, accelerating performance by utilizing CMSIS-NN and HiFi NN libraries, respectively.
+Pytorch Glow can be compared to the Tensorflow Lite for Microcontrollers tools, but it generate different types of files for the microcontroller. Glow creates compiled files, so binaries, ready for the microcontroller to use. Thus one needs to specify the target that the model will run on when compiling the computational graph. Because Glow compiles the neural network without knowing the rest of the microcontroller its code, it is called ahead-of-time compilation. The compiler converts the neural networks into object files, then the user converts this into a binary image for increased performance and smaller memory footprint as compared to a traditional runtime inference engine. Next to Pytorch models it also accepts ONNX models. Glow, or graph lowering, compiler derives its name because it lowers a neural network into a two-phase strongly typed intermediate representation. In the first phase, the optimizer performs domain-specific optimizations. The second phase allows the compiler to perform optimizations that take advantage of specialized back-end hardware features. It’s in this second phase that the creator of Glow added specialized support for Arm Cortex Mx cores and Cadence Tensilica HiFi 4 DSP support, accelerating performance by utilizing CMSIS-NN and HiFi NN libraries, respectively.
 
 A comparison and benchmark between Glow and Tensorflow Lite for Microcontrollers can be found [here](https://towardsdatascience.com/tflite-micro-vs-glow-aot-6524be02ba2a).
 
 ### ONNX
 
-[Homepage of ONNC]()
+[Homepage of ONNX](https://onnx.ai/)
+
+
 
 ### ONNC
 
-[Homepage of ONNC]()
+[Homepage of ONNC](https://onnc.ai/)
+
+ONNC (Open Neural Network Compiler) is a retargetable compilation framework designed specifically for proprietary deep learning accelerators. Its software architecture expedites porting ONNC to any Deep Learning Accelerator (DLA) design that supports ONNX (Open Neural Network Exchange) operators. ONNC guarantees executability across every DLA by means of transforming ONNX models into DLA-specific binary forms and leveraging the intermediate representation (IR) design of ONNX along with effective algorithms to eliminate the overhead of data movement.
+
+A demo of ONNC and the Mbed tools can be found [here](https://github.com/ONNC/onnc-tutorial/blob/master/lab_2_Digit_Recognition_with_ARM_CortexM/lab_2.md).
 
 ### X-CUBE-AI (CubeMX from ST)
 
-[Homepage of X-CUBE-AI]()
+[Homepage of X-CUBE-AI](https://www.st.com/en/embedded-software/x-cube-ai.html)
 
-### Kendryte Stack
 
-[Homepage of the Kendryte Stack]()
 
-### DORY
+### Kendryte Stack / NNCASE
 
-[Homepage of DORY]()
+[Homepage of NNCASE](https://github.com/kendryte/nncase)
+
+
 
 ## Non-AI frameworks and compilers
 
@@ -120,7 +126,7 @@ During the project other frameworks were required to develop the academic and in
 
 [Homepage of the ESP-IDF framework](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/#)
 
-This framework is used to create and compile code for ESP-based systems such as the ESP-EYE. The framework is used as a plug-in for Visual Studio Code. It provides a self-sufficient SDK for any generic application development on these platforms, using programming languages such as C and C++.
+This framework is used to create and compile code for ESP-based systems such as the ESP-EYE. The framework is used as a plug-in for Visual Studio Code. It provides a self-sufficient SDK for any generic application development on these platforms, using programming languages such as C and C++. Instead of ESP-IDF, PlatformIO provides the same functionality to compile code for ESP-based systems.
 
 This tool is used to program the ESP-EYE board, used in the hands-on workshop on embedded vision.
 
