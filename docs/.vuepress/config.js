@@ -39,10 +39,10 @@ module.exports = {
             children: [
               ['/overview/hardware/', 'Hardware'],
               ['/overview/frameworks/', 'Frameworks'],
-              ['/overview/optimalisaties/', 'Optimalisations']
+              ['/overview/optimalisaties/', 'Optimalisations'],
+              ['/bestpractices/', 'Best Practices']
             ]
           },
-          ['/bestpractices/', 'Best Practices'],
           {
             title: 'Workshops',
             collapsable: true,
