@@ -37,7 +37,7 @@ module.exports = {
             title: 'Overview of ...',
             collapsable: true,
             children: [
-              ['/overview/hardware/', 'Hardware'],
+              ['/overview/hardware/', 'Hardware Targets'],
               ['/overview/frameworks/', 'Frameworks'],
               ['/overview/optimalisaties/', 'Optimalisations'],
               ['/bestpractices/', 'Best Practices']
@@ -59,7 +59,7 @@ module.exports = {
               ['/usecases/abwriting/', 'AB Writing'],
               ['/usecases/seatdetection/', 'Seat Detection'],
               ['/usecases/garagegate/', 'Automatic Garage Gate'],
-              ['/usecases/melexis/', 'Thermal Person Detection'],
+              ['/usecases/melexis/', 'Person Detection with Thermal sensor'],
               ['/usecases/tml/', 'Traffic Detection'],
               ['/usecases/edna/', 'Induction Cooker Touch Sensor'],
               ['/usecases/larbitssisters/', 'Crypto Miner Car'],

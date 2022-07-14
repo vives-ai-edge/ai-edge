@@ -4,7 +4,11 @@ During this project two specific optimalisation techniques were investigated. On
 
 ## Quantisation
 
+
+
 ## Pruning
+
+
 
 ## Other optimalisation techniques
 
