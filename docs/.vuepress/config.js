@@ -35,7 +35,7 @@ module.exports = {
           },
           {
             title: 'Overview of ...',
-            collapsable: false,
+            collapsable: true,
             children: [
               ['/overview/hardware/', 'Hardware'],
               ['/overview/frameworks/', 'Frameworks'],
