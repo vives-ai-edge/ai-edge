@@ -9,8 +9,9 @@ Company: Melexis
 
 ## Contact
 
-For more information please contact:
-**Prof. Toon Goedemé**
-<toon.goedeme@kuleuven.be>
-**ing. Maarten Vandersteegen**
+For more information please contact: <br/>
+**Prof. Toon Goedemé** <br/>
+<toon.goedeme@kuleuven.be> <br/>
+**ing. Maarten Vandersteegen** <br/>
 <maarten.vandersteegen@kuleuven.be>
+

@@ -9,8 +9,9 @@ Company: Transport & Mobility Leuven
 
 ## Contact
 
-For more information please contact:
-**Prof. Toon Goedemé**
-<toon.goedeme@kuleuven.be>
-**dr. ing. Kristof Van Beeck**
+For more information please contact: <br/>
+**Prof. Toon Goedemé** <br/>
+<toon.goedeme@kuleuven.be> <br/>
+**dr. ing. Kristof Van Beeck** <br/>
 <kristof.vanbeeck@kuleuven.be>
+

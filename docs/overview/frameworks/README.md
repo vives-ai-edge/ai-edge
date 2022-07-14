@@ -14,7 +14,7 @@ These frameworks are for the less-experienced user. They provide all the informa
 
 [Homepage Edge Impulse](https://www.edgeimpulse.com/)
 
-
+Edge Impulse is a (still growing) development platform for machine learning on edge devices. It is free to use for developers, but is has possibilities for enterprises. The framework is embedded in the browser and hands the use a full online toolbox for the whole setup of an AI-activated embedded device. From data collection to preprocessing, from creating the model to training the model, selecting optimisation techniques and deploy the trained neural network to the target. The Edge Impulse framework is well documented and has a large community. Using several API's and extensions you can automate and optimise the development of your neural network. A major advantage of Edge Impulse is the high level and accessability of the tool, no programming skills are required to get started. All of the underlaying Tensorflow and Tensorflow Lite functions are transformed into an intuitive interface with wizards and tutorials. Furthermore, the system is project based and versioning and sharing is available.
 
 Several use-cases and workshops have used this framework during the development phase.
 
@@ -35,25 +35,28 @@ These frameworks and compilers provide libraries and tools to develop neural net
 
 [Homepage of Tensorflow](https://www.tensorflow.org/)
 
+Tensorflow is an end-to-end open-source deep learning framework developed by Google and released in 2015. TensorFlow has adopted Keras into its framework so one can't work without the other. With Tensorflow you can create, train, visualise and deploy your neural networks on different platforms such as Windows, Linux, Mac and Android. It is well known because it's well documented and has training support, scalable production, deployment options and multiple abstraction levels.
 
+In this project Tensorflow was mostly directly used in Python to create and train the neural network, or it runs in the background for example in the Edge Impulse framework.
 
 ### Tensorflow Lite
 
 [Homepage of Tensorflow Lite](https://www.tensorflow.org/lite)
 
-TensorFlow Lite is a set of tools that enables on-device machine learning by helping developers run their models on mobile, embedded, and edge devices. It features optimisation tools for on-device machine learning by addressing five key constraints: 
+TensorFlow Lite expands Tensorflow with the goal to optimise the trained model so that it can run on smaller devices (then a workstation or computer cluster). It contains a set of tools that enables on-device machine learning by helping developers run their models on mobile, embedded, and edge devices. It features optimisation tools for on-device machine learning by addressing five key constraints: 
 * latency (there's no round-trip to a server),
 * privacy (no personal data leaves the device),
 * connectivity (internet connectivity is not required),
 * size (reduced model and binary size)
 * power consumption (efficient inference and a lack of network connections).
+
 It does not only work on the microcontrollers used in this project, but also supports Android, iOS and embedded Linux devices. Therefore it can also be used with several programming languages such as Swift, Java, C++ and Python. Of wich we used the latter one (Python) the most during this project. It provides you hardware acceleration tools and model optimisation kernels to improve the model you created using Tensorflow.
 
 ### Tensorflow Lite for Microcontrollers
 
 [Homepage of Tensorflow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
 
-TensorFlow Lite for Microcontrollers is designed to run machine learning models on microcontrollers and other devices with only few kilobytes of memory. The core runtime just fits in 16 KB on an Arm Cortex M3 and can run many basic models. It doesn't require operating system support, any standard C or C++ libraries, or dynamic memory allocation. TensorFlow Lite for Microcontrollers is written in C++ 11 and requires a 32-bit platform. It has been tested extensively with many processors based on the Arm Cortex-M Series architecture, and has been ported to other architectures including ESP32. The framework is available as an Arduino library. It can also generate projects for development environments such as Mbed. It is open source and can be included in any C++ 11 project. TensorFlow Lite for Microcontrollers is designed for the specific constraints of microcontroller development. If you are working on more powerful devices (for example, an embedded Linux device like the Raspberry Pi), the standard TensorFlow Lite framework might be easier to integrate.
+TensorFlow Lite for Microcontrollers extends the Tensorflow and Tensorflow Lite tools and brings them to the edge. It is designed to run machine learning models on microcontrollers and other devices with only few kilobytes of memory. The core runtime just fits in 16 KB on an Arm Cortex M3 and can run many basic models. It doesn't require operating system support, any standard C or C++ libraries, or dynamic memory allocation. TensorFlow Lite for Microcontrollers is written in C++ 11 and requires a 32-bit platform. It has been tested extensively with many processors based on the Arm Cortex-M Series architecture, and has been ported to other architectures including ESP32. The framework is available as an Arduino library. It can also generate projects for development environments such as Mbed. It is open source and can be included in any C++ 11 project. TensorFlow Lite for Microcontrollers is designed for the specific constraints of microcontroller development. If you are working on more powerful devices (for example, an embedded Linux device like the Raspberry Pi), the standard TensorFlow Lite framework might be easier to integrate.
 
 The Tensorflow Lite for Microcontroller libraries are used in almost all cases handled in this project where the inference was done on an embedded device (with the exception of the Raspberry Pi).
 
@@ -69,16 +72,25 @@ CMSIS-NN is an open-source software library. It can be compared with the well-kn
 * Pooling Functions
 * Softmax Functions
 * Basic math Functions
+
 The optimalisation technique quantisation is already partially embedded in the provided kernels as it provides functions for specific data types such as int8 and int16. It also provides libraries for devices that support SIMD (Single Instruction/Multiple Data) instructions (such as ARM Cortex M0+).
 This library also supports Tensorflow Lite for Microcontrollers functions.
 
 ### Pytorch
 
-[Homepage of Pytorch]()
+[Homepage of Pytorch](https://pytorch.org/)
+
+PyTorch is an optimized tensor library for deep learning using GPUs and CPUs developed by Facebook (or Meta AI). In the area of data parallelism, PyTorch gains optimal performance by relying on native support for asynchronous execution through Python. However, when comparing to TensorFlow, you must manually code and optimize every operation run on a specific device to allow distributed training. But you can replicate everything from PyTorch in TensorFlow. If you want to get started with modelling neural networks and get the hang of it, it could be a better idea to start with Pytorch instead of Tensorflow. It has a reputation for simplicity, ease of use, flexibility, efficient memory usage, and dynamic computational graphs.
 
 ### Pytorch Glow
 
-[Homepage of Pytorch Glow]()
+[Homepage of Pytorch Glow](https://github.com/pytorch/glow?fbclid=IwAR2aqwpZ1LmyM55LXP_kq_fUsPWmNeLbh78kS-cHAzrJPxKxWEUhhtUvsbY)
+
+Facebook (or Meta AI) is also the owner of the Glow compiler. It is referred to as the Pytorch Glow compiler because it is often used with models coming from Pytorch, but it also accepts computational graphs from other frameworks. Glow is a machine learning compiler that accelerates the performance of deep learning frameworks on different hardware platforms. It enables the ecosystem of hardware developers and researchers to focus on building next gen hardware accelerators that can be supported by deep learning frameworks like PyTorch. Glow accepts a computation graph from deep learning frameworks and generates highly optimized code for machine learning accelerators. It contains many machine learning and hardware optimizations like kernel fusion to accelerate model development. 
+
+Pytorch Glow can be compared to the Tensorflow Lite for Microcontrollers tools, but it generate different types of files for the microcontroller. Glow creates compiled files, so binaries, ready for the microcontroller to use. Thus one needs to specify the target that the model will run on when compiling the computational graph. Because Glow compiles the neural network without knowing the rest of the microcontroller its code, it is called ahead-of-time compilation. The compiler converts the neural networks into object files, then the user converts this into a binary image for increased performance and smaller memory footprint as compared to a traditional runtime inference engine. Glow, or graph lowering, compiler derives its name because it lowers a neural network into a two-phase strongly typed intermediate representation. In the first phase, the optimizer performs domain-specific optimizations. The second phase allows the compiler to perform optimizations that take advantage of specialized back-end hardware features. It’s in this second phase that the creator of Glow added specialized support for Arm Cortex Mx cores and Cadence Tensilica HiFi 4 DSP support, accelerating performance by utilizing CMSIS-NN and HiFi NN libraries, respectively.
+
+A comparison and benchmark between Glow and Tensorflow Lite for Microcontrollers can be found [here](https://towardsdatascience.com/tflite-micro-vs-glow-aot-6524be02ba2a).
 
 ### ONNX
 

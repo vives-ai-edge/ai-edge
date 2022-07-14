@@ -19,7 +19,10 @@ sidebarDepth: 0
 * STM32F767ZI (ARM Cortex M7)
 * STM32F746G-DISCO (ARM Cortex M7)
 
-## Other targets, not used during this project
+## Other targets
+
+These targets were mentioned but not used during this project
 * Arduino Nano Sense BLE 33 (ARM Cortex M4)
 * Nvidia Jetson Nano (Quad-core ARM Cortex A57)
 * Boards with Kendryte K210 (RISK-V)
+* Revolution Pi 3+ from KUNBUS
