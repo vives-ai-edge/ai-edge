@@ -96,7 +96,7 @@ A comparison and benchmark between Glow and Tensorflow Lite for Microcontrollers
 
 [Homepage of ONNX](https://onnx.ai/)
 
-
+ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators - the building blocks of machine learning and deep learning models - and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers. ONNX is widely supported and can be found in many frameworks, tools, and hardware. Enabling interoperability between different frameworks and streamlining the path from research to production helps increase the speed of innovation in the AI community. Therefore ONNX is named a few times in the other frameworks mentioned on this page, as they can import AI models that are created in the ONNX format.
 
 ### ONNC
 
@@ -110,13 +110,25 @@ A demo of ONNC and the Mbed tools can be found [here](https://github.com/ONNC/on
 
 [Homepage of X-CUBE-AI](https://www.st.com/en/embedded-software/x-cube-ai.html)
 
-
+X-CUBE-AI is an extension package for STM32Cube ecosystem. It is capable of automatic converting pre-trained Artificial Intelligence algorithms, including Neural Network and classical Machine Learning models, and integration of generated optimized library into your project. It supports native Deep Learning frameworks such as Tensorflow Lite and Keras and supports the frameworks that can export to the ONNX standard such as Pytorch, Matlab and Microsoft Cognitive toolkit. It also has built in classification models and supports quantisation to 8-bit. It natively supports all STM32 microcontrollers as it works as a package for the IDE for ST microcontrollers.
 
 ### Kendryte Stack / NNCASE
 
 [Homepage of NNCASE](https://github.com/kendryte/nncase)
 
+NNCASE is an open deep learning compiler stack for Kendryte AI accelerator, it is still under development and is built specifically for the Kendryte chips. Kendryte is a series of AI chips which focuses on IoT, and the 1st-gen is named K210 by the company by Canaan Inc. It features:
+* multiple inputs and outputs and multi-branch structure,
+* static memory allocation, no heap memory acquired, 
+* operators fusion and optimizations, 
+* support float and quantized uint8 inference, 
+* support post quantization from float model with calibration dataset, 
+* flat model with zero copy loading.
 
+### DORY
+
+DORY (Deployment ORiented to memorY) is an automatic tool to deploy DNNs on low-cost MCUs with typically less than 1MB of on-chip SRAM memory. It is still in the development phase but looks promising. The current platforms supported are GAP8 and Occamy chip. GAP8 is a low-power but very performant IoT chip, it was not used in the project but will be investigated in the future. The DORY tool has some limitations and has been tested on feed-forward networks with single-wire residual connections. All layers are implemented in 8-bit integers. 
+
+[Homepage of Dory](https://github.com/pulp-platform/dory)
 
 ## Non-AI frameworks and compilers
 
