@@ -27,7 +27,7 @@ Five industrial use cases were developed during the running time of this project
 ## Partners
 
 [IoT-Incubator](https://iot-incubator.be) <br/>
-**dr. ing. Jonas Lannoo & Piet Cordemans** <br/>
+**dr. ing. Jonas Lannoo & ing. Piet Cordemans** <br/>
 VIVES campus Brugge
 
 [EAVISE](http://www.eavise.be) <br/>

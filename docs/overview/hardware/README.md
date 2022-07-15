@@ -19,6 +19,10 @@ sidebarDepth: 0
 * STM32F767ZI (ARM Cortex M7)
 * STM32F746G-DISCO (ARM Cortex M7)
 
+![STM Nucleo board](./media/nucleo.jpg)
+![Raspberry Pi 4](./media/rpi4.jpg)
+![Espressif ESP-EYE](./media/esp-eye.png)
+
 ## Other targets
 
 These targets were mentioned but not used during this project
@@ -26,3 +30,7 @@ These targets were mentioned but not used during this project
 * Nvidia Jetson Nano (Quad-core ARM Cortex A57)
 * Boards with Kendryte K210 (RISK-V)
 * Revolution Pi 3+ from KUNBUS
+
+![Arduino Nano Sense BLE 33](./media/arduino_nano.jpg)
+![Nvidia Jetson Nano](./media/jetson_nano.jpg)
+![Kendryte components](./media/kendryte.jpeg)
