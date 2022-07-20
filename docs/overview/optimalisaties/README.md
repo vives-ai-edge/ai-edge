@@ -14,6 +14,13 @@ Quantisation is an optimalisation step where the weights and bias values of the 
 
 Next to quantisation and pruning there are othwer ways to optimise the running speed of the model. One could be by optimising the compiler settings, use a co-processor if the target has one or go to another type of device architecture.
 
+### Separable convolution
+
+
+Disadvantage: Because the separable convolution reduces the number of parameters for a convolution operation, if your network is already small, you might end up with too few parameters and your network might fail to properly learn during training. If used properly, however, it manages to enhance efficiency without significantly reducing effectiveness.
+
+A good example with separable convolutions can be found [here](https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728).
+
 ### Compiler specific settings
 
 
