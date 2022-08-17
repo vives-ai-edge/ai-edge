@@ -1,5 +1,7 @@
 # Workshop Edge Impulse
 
+![Workshop Edge Impulse](./assets/workshop_ei.png)
+
 In this workshop the basics of Deep Learning are explained using a "Hello World" example, specifically for AI applications. The workshop is an introduction to the tools and frameworks that are used to design Deep Learning applications and deploy them on a microcontroller. These tools consist of basic Linux usage, Jupyter Notebooks, the Mbed Operating system and environment and the high-level framework Edge Impulse. In this workshop you are going to go over the whole workflow twice, once as an introduction using the "Hello World" example, a second time with a specific application worked out in Edge Impulse. You will:
 * prepare the device to collect data,
 * collect actual data, 

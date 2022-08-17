@@ -1,5 +1,7 @@
 # Workshop Embedded Vision
 
+![Image workshop embedded vision](./assets/workshop.png)
+
 While the workshop with Edge Impule was a low-threshold acquaintance with Deep Learning on tiny edge devices, using the high-level GUI of Edge Impulse, this workshop will give you the chance to dig deeper. We will introduce the participants into the typical toolchain for embedded Deep Learning model optimization and deployment, for a computer vision application. In contrast to the previous workshop, in this advanced workshop we will work code-based (Python and C), ensuring deeper insight in the techniques. However, it is not necessary for the participants to have followed the Edge Impulse workshop. A basic know-how of Python, C and the basics of CNNs is certainly enough background to be able to follow.
 
 For our computer vision application, we will target the extremely tiny ESP-EYE platform, a 4x2cm edge device containing a.o. an ESP32 MCU and a 2MP color camera.
