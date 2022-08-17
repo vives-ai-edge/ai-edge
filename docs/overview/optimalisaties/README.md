@@ -12,7 +12,7 @@ Quantisation is an optimalisation step where the weights and bias values of the 
 
 ## Other optimalisation techniques
 
-Next to quantisation and pruning there are othwer ways to optimise the running speed of the model. One could be by optimising the compiler settings, use a co-processor if the target has one or go to another type of device architecture.
+Next to quantisation and pruning there are othwer ways to optimise the running speed of the model. One could be by optimising the compiler settings, use a co-processor if the target has one, or go to another type of device architecture.
 
 ### Separable convolution
 

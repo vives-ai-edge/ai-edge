@@ -40,7 +40,7 @@ module.exports = {
               ['/overview/hardware/', 'Hardware Targets'],
               ['/overview/frameworks/', 'Frameworks'],
               ['/overview/optimalisaties/', 'Optimalisations'],
-              ['/bestpractices/', 'Best Practices']
+              //['/bestpractices/', 'Best Practices']
             ]
           },
           {
