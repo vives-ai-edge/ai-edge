@@ -140,7 +140,6 @@ We strongly recommend working in a 'container'. Examples of this include, but ar
 **Versions:** TF GPU 2.1.0, Python 3.7.9, NumPy 1.17.4, cuDNN 7.6.5, cudatoolkit 10.1.243, CUDA 11.0, COCO API, TF Object Detection API
 
 This description in pdf format can be found [here](https://ai-edge.be/Telraam_case.pdf).
-For more information and to get access to the data and code, please contact the following persons below.
 
 ## Contact
 
