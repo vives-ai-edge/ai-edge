@@ -1,0 +1,677 @@
+%PDF-1.3
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+21 0 R
+35 0 R
+]
+/Count 3
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+/F2 9 0 R
+/F3 10 0 R
+>>
+>>
+/MediaBox [0.000 0.000 595.280 841.890]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Creator (DOMPDF)
+/CreationDate (D:20220730152708+00'00')
+/ModDate (D:20220730152708+00'00')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R ]
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 7555 >>
+stream
+
+0.000 0.000 0.000 rg
+BT 34.016 768.985 Td /F2 24.0 Tf  [(Counting Traffic with Object Detection Using )] TJ ET
+BT 34.016 740.473 Td /F2 24.0 Tf  [(TensorFlow Lite)] TJ ET
+BT 34.016 707.285 Td /F1 12.0 Tf  [(The goal of this project is traffic counting on a Raspberry Pi at home. In addition to counting the passersby, )] TJ ET
+BT 34.016 693.029 Td /F1 12.0 Tf  [(the direction of their movement is also determined.)] TJ ET
+BT 34.016 666.773 Td /F1 12.0 Tf  [(We divide these road users into )] TJ ET
+BT 187.988 666.773 Td /F2 12.0 Tf  [(five)] TJ ET
+BT 206.648 666.773 Td /F1 12.0 Tf  [( different classes:)] TJ ET
+0.000 0.000 0.000 RG
+57.816 643.622 m 
+57.816 644.172 57.589 644.718 57.201 645.107 c
+56.812 645.496 56.266 645.722 55.716 645.722 c
+55.166 645.722 54.620 645.496 54.231 645.107 c
+53.842 644.718 53.616 644.172 53.616 643.622 c
+53.616 643.072 53.842 642.526 54.231 642.137 c
+54.620 641.749 55.166 641.522 55.716 641.522 c
+56.266 641.522 56.812 641.749 57.201 642.137 c
+57.589 642.526 57.816 643.072 57.816 643.622 c f
+BT 64.016 640.517 Td /F1 12.0 Tf  [(Car)] TJ ET
+57.816 629.366 m 
+57.816 629.916 57.589 630.462 57.201 630.851 c
+56.812 631.240 56.266 631.466 55.716 631.466 c
+55.166 631.466 54.620 631.240 54.231 630.851 c
+53.842 630.462 53.616 629.916 53.616 629.366 c
+53.616 628.816 53.842 628.270 54.231 627.881 c
+54.620 627.493 55.166 627.266 55.716 627.266 c
+56.266 627.266 56.812 627.493 57.201 627.881 c
+57.589 628.270 57.816 628.816 57.816 629.366 c f
+BT 64.016 626.261 Td /F1 12.0 Tf  [(Pedestrian)] TJ ET
+57.816 615.110 m 
+57.816 615.660 57.589 616.206 57.201 616.595 c
+56.812 616.984 56.266 617.210 55.716 617.210 c
+55.166 617.210 54.620 616.984 54.231 616.595 c
+53.842 616.206 53.616 615.660 53.616 615.110 c
+53.616 614.560 53.842 614.014 54.231 613.625 c
+54.620 613.237 55.166 613.010 55.716 613.010 c
+56.266 613.010 56.812 613.237 57.201 613.625 c
+57.589 614.014 57.816 614.560 57.816 615.110 c f
+BT 64.016 612.005 Td /F1 12.0 Tf  [(Bike)] TJ ET
+57.816 600.854 m 
+57.816 601.404 57.589 601.950 57.201 602.339 c
+56.812 602.728 56.266 602.954 55.716 602.954 c
+55.166 602.954 54.620 602.728 54.231 602.339 c
+53.842 601.950 53.616 601.404 53.616 600.854 c
+53.616 600.304 53.842 599.758 54.231 599.369 c
+54.620 598.981 55.166 598.754 55.716 598.754 c
+56.266 598.754 56.812 598.981 57.201 599.369 c
+57.589 599.758 57.816 600.304 57.816 600.854 c f
+BT 64.016 597.749 Td /F1 12.0 Tf  [(Truck)] TJ ET
+57.816 586.598 m 
+57.816 587.148 57.589 587.694 57.201 588.083 c
+56.812 588.472 56.266 588.698 55.716 588.698 c
+55.166 588.698 54.620 588.472 54.231 588.083 c
+53.842 587.694 53.616 587.148 53.616 586.598 c
+53.616 586.048 53.842 585.502 54.231 585.113 c
+54.620 584.725 55.166 584.498 55.716 584.498 c
+56.266 584.498 56.812 584.725 57.201 585.113 c
+57.589 585.502 57.816 586.048 57.816 586.598 c f
+BT 64.016 583.378 Td /F1 12.0 Tf  [(Other \(e.g.: scooter\))] TJ ET
+BT 34.016 557.093 Td /F1 12.0 Tf  [(This project uses a SSD+MobileNetv2 object detector implemented in )] TJ ET
+0.000 0.000 0.800 rg
+BT 374.420 557.093 Td /F1 12.0 Tf  [(TensorFlow Lite)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+374.420 554.393 m 454.748 554.393 l S
+0.000 0.000 0.000 rg
+BT 454.748 557.093 Td /F1 12.0 Tf  [( complemented with )] TJ ET
+BT 34.016 542.722 Td /F1 12.0 Tf  [(a multiple object tracker from the )] TJ ET
+0.000 0.000 0.800 rg
+BT 197.984 542.722 Td /F1 12.0 Tf  [(motpy library)] TJ ET
+0.6 w 0 J [  ] 0 d
+197.984 540.022 m 263.648 540.022 l S
+0.000 0.000 0.000 rg
+BT 263.648 542.722 Td /F1 12.0 Tf  [(. )] TJ ET
+BT 34.016 517.042 Td /F1 12.0 Tf  [(Demo of traffic counting)] TJ ET
+0.500 0.500 0.500 rg
+BT 34.016 528.762 Td /F1 8.0 Tf  [(Image not readable or empty)] TJ ET
+BT 34.016 518.762 Td /F1 8.0 Tf  [(./docu/TML_demo_gif.gif)] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 483.915 Td /F2 18.0 Tf  [(Dataset: IMPORTANT INFORMATION)] TJ ET
+BT 34.016 453.178 Td /F1 12.0 Tf  [(Models should be trained using a balanced dataset!)] TJ ET
+BT 34.016 438.893 Td /F1 12.0 Tf  [(The provided TFLite models have all been trained on a combination of the provided datasets, which consist )] TJ ET
+BT 34.016 424.522 Td /F1 12.0 Tf  [(of only two \(fixed\) viewpoints.)] TJ ET
+BT 34.016 410.122 Td /F1 12.0 Tf  [(To obtain accurate results in )] TJ ET
+BT 172.988 410.122 Td /F2 12.0 Tf  [(all)] TJ ET
+BT 185.660 410.122 Td /F1 12.0 Tf  [( situations, these models have to be trained with more varied data!)] TJ ET
+BT 34.016 395.837 Td /F1 12.0 Tf  [(It is however adviced to use transfer learning and start from the pre-trained models provided in the )] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 381.466 Td /F1 12.0 Tf  [(official TensorFlow model zoo)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 378.766 m 182.996 378.766 l S
+0.000 0.000 0.000 rg
+BT 182.996 381.466 Td /F1 12.0 Tf  [(. We used SSD+MobileNetv2.)] TJ ET
+BT 34.016 352.781 Td /F1 12.0 Tf  [(For this purpose, our used dataset consisting of 43000 images \(RGB, 160x160\) and corresponding labels is )] TJ ET
+BT 34.016 338.525 Td /F1 12.0 Tf  [(provided. This dataset has been divided in a training set and a test set. We recommend recording your own )] TJ ET
+BT 34.016 324.269 Td /F1 12.0 Tf  [(data \(and labels\) and adding this to the dataset to make it more robust and suited to your own situation at )] TJ ET
+BT 34.016 310.013 Td /F1 12.0 Tf  [(home. Our annotations are provided in PASCAL VOC XML format. This looks something like this: )] TJ ET
+BT 34.016 297.202 Td /F3 12.0 Tf  [(xml <?xml version="1.0"?> <annotation> <folder/> )] TJ ET
+BT 34.016 284.752 Td /F3 12.0 Tf  [(<filename>frame_000578</filename> <path/> <source> )] TJ ET
+BT 34.016 272.302 Td /F3 12.0 Tf  [(<database>Unknown</database> </source> <size> <width>160</width> )] TJ ET
+BT 34.016 259.851 Td /F3 12.0 Tf  [(<height>160</height> <depth>3</depth> </size> <segmented>0</segmented> )] TJ ET
+BT 34.016 247.401 Td /F3 12.0 Tf  [(<object> <name>Pedestrian</name> <pose>Unspecified</pose> )] TJ ET
+BT 34.016 234.951 Td /F3 12.0 Tf  [(<truncated>0</truncated> <difficult>0</difficult> <bndbox> )] TJ ET
+BT 34.016 222.501 Td /F3 12.0 Tf  [(<xmin>117.290625</xmin> <ymin>47.667057291666666</ymin> )] TJ ET
+BT 34.016 210.050 Td /F3 12.0 Tf  [(<xmax>125.28486328124964</xmax> <ymax>72.42348293728298</ymax> </bndbox> )] TJ ET
+BT 34.016 196.156 Td /F3 12.0 Tf  [(</object> </annotation> )] TJ ET
+BT 206.816 196.156 Td /F1 12.0 Tf  [( The TensorFlow Object Detection API works with TFRecords. You will )] TJ ET
+BT 34.016 181.900 Td /F1 12.0 Tf  [(have to generate these before you can start training. A script \()] TJ ET
+BT 329.936 181.900 Td /F1 12.0 Tf  [(records.py)] TJ ET
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+329.936 179.200 m 380.252 179.200 l S
+BT 380.252 181.900 Td /F1 12.0 Tf  [(\) based on the )] TJ ET
+0.000 0.000 0.800 rg
+BT 450.236 181.900 Td /F1 12.0 Tf  [(official documentation)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+450.236 179.200 m 559.220 179.200 l S
+0.000 0.000 0.000 rg
+BT 34.016 167.644 Td /F1 12.0 Tf  [(is provided for this purpose in the scripts folder. The labelmap, which can be found in the annotations )] TJ ET
+BT 525.284 167.644 Td /F1 12.0 Tf  [(folder, )] TJ ET
+BT 34.016 153.388 Td /F1 12.0 Tf  [(also has to be provided to this script. This only works with the above mentioned XML format!)] TJ ET
+BT 34.016 118.489 Td /F2 18.0 Tf  [(Start Training and Evaluating)] TJ ET
+BT 34.016 87.752 Td /F1 12.0 Tf  [(Training:)] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 73.352 Td /F1 12.0 Tf  [(TensorFlow Object Detection API training tutorial)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 70.652 m 276.992 70.652 l S
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F3
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 12 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 374.4197 556.0135 454.7477 567.8935 ]
+>>
+endobj
+12 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.tensorflow.org/lite/guide/python)
+>>
+endobj
+13 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 14 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 197.9837 541.6423 263.6477 553.5223 ]
+>>
+endobj
+14 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/wmuron/motpy)
+>>
+endobj
+15 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 16 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 380.3863 182.9957 392.2663 ]
+>>
+endobj
+16 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
+>>
+endobj
+17 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 18 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 450.2357 180.8195 559.2197 192.6995 ]
+>>
+endobj
+18 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#create-tensorflow-records)
+>>
+endobj
+19 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 20 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 72.2723 276.9917 84.1523 ]
+>>
+endobj
+20 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/index.html)
+>>
+endobj
+21 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R ]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 6814 >>
+stream
+
+0.000 0.000 0.800 rg
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+0.000 0.000 0.000 rg
+BT 34.016 796.469 Td /F1 12.0 Tf  [(The )] TJ ET
+BT 55.676 796.469 Td /F2 12.0 Tf  [(.config)] TJ ET
+BT 90.008 796.469 Td /F1 12.0 Tf  [( files used for training are provided in the models folder. Labelmaps \(_label_map_TML.bptxt_\) )] TJ ET
+BT 34.016 782.213 Td /F1 12.0 Tf  [(can be found in the annotations folder.)] TJ ET
+BT 34.016 755.842 Td /F1 12.0 Tf  [(Evaluating:)] TJ ET
+BT 34.016 741.557 Td /F1 12.0 Tf  [(Evaluation is done with the )] TJ ET
+0.000 0.000 0.800 rg
+BT 168.344 741.557 Td /F1 12.0 Tf  [(COCO API)] TJ ET
+0.6 w 0 J [  ] 0 d
+168.344 738.857 m 224.012 738.857 l S
+0.000 0.000 0.000 rg
+BT 224.012 741.557 Td /F1 12.0 Tf  [(. This provides various detection evaluation metrics such as average )] TJ ET
+BT 34.016 727.301 Td /F1 12.0 Tf  [(precision \(AP\) and average recall \(AR\)The COCO API works well with the TensorFlow Object Detection )] TJ ET
+BT 34.016 713.045 Td /F1 12.0 Tf  [(API but has to be installed )] TJ ET
+0.000 0.000 0.800 rg
+BT 164.012 713.045 Td /F1 12.0 Tf  [(seperately)] TJ ET
+0.6 w 0 J [  ] 0 d
+164.012 710.345 m 212.660 710.345 l S
+0.000 0.000 0.000 rg
+BT 212.660 713.045 Td /F1 12.0 Tf  [(.)] TJ ET
+BT 34.016 686.789 Td /F1 12.0 Tf  [(Processes can be started using the following commands and correct arguments, pointing to your own )] TJ ET
+BT 34.016 672.533 Td /F1 12.0 Tf  [(directories.)] TJ ET
+BT 34.016 647.722 Td /F3 12.0 Tf  [(Examples of how to run different parts of the pipeline:)] TJ ET
+BT 34.016 635.272 Td /F3 12.0 Tf  [(Train:)] TJ ET
+BT 34.016 622.822 Td /F3 12.0 Tf  [(python model_main_tf2.py --model_dir=models/TML_SSD_MobileNetV2_mix --pipeline_config_path=models/TML_SSD_MobileNetV2_mix/pipeline.config)] TJ ET
+BT 34.016 610.371 Td /F3 12.0 Tf  [(Metrics:)] TJ ET
+BT 34.016 597.921 Td /F3 12.0 Tf  [(python model_main_tf2.py --model_dir=models/TML_SSD_MobileNetV2_mix --pipeline_config_path=models/TML_SSD_MobileNetV2_mix/pipeline.config --checkpoint_dir=models/TML_SSD_MobileNetV2_mix)] TJ ET
+BT 34.016 585.471 Td /F3 12.0 Tf  [(Export graph:)] TJ ET
+BT 34.016 573.021 Td /F3 12.0 Tf  [(python export_tflite_graph_tf2.py  --pipeline_config_path=./models/TML_SSD_MobileNetV2_mix/pipeline.config --trained_checkpoint_dir=C:\\Users\\lotte\\Documents\\TF\\workspace\\training_demo\\models\\TML_SSD_MobileNetV2_mix --output_directory=./exported-models/ssd_mobilenetv2_tml_mix_160)] TJ ET
+BT 34.016 538.483 Td /F2 18.0 Tf  [(Extra Info on Exporting Models)] TJ ET
+BT 34.016 507.862 Td /F1 12.0 Tf  [(Trained models have to be exported to the TensorFlow Lite format. A few steps have to be followed to )] TJ ET
+BT 34.016 493.491 Td /F1 12.0 Tf  [(obtain these models.)] TJ ET
+BT 34.016 479.091 Td /F1 12.0 Tf  [(This is clearly explained in the following tutorial, which we used as a base for our code:)] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 464.691 Td /F1 12.0 Tf  [(TFLite Object Detection by TannerGilbert)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 461.991 m 237.980 461.991 l S
+0.000 0.000 0.000 rg
+BT 34.016 450.291 Td /F1 12.0 Tf  [(Two scripts have been included in the scripts folder for this purpose:)] TJ ET
+BT 34.016 436.006 Td /F1 12.0 Tf  [(_export_tflite_graph_tf2.py_ and _transform_to_tflite.py_)] TJ ET
+BT 34.016 401.107 Td /F2 18.0 Tf  [(Models on Raspberry Pi)] TJ ET
+BT 34.016 370.486 Td /F1 12.0 Tf  [(To run the models on a Raspberry we have provided the _TFLite_detection_track.py_ script is based on )] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 356.115 Td /F1 12.0 Tf  [(this tutorial)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 353.415 m 89.024 353.415 l S
+0.000 0.000 0.000 rg
+BT 89.024 356.115 Td /F1 12.0 Tf  [( in the tml_pi_code folder. How to use this script is best explained in this tutorial:)] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 341.715 Td /F1 12.0 Tf  [(TFLite Object Detection on Rasbperry Pi by EdjeElectronics)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 339.015 m 326.312 339.015 l S
+0.000 0.000 0.000 rg
+BT 326.312 341.715 Td /F1 12.0 Tf  [(. )] TJ ET
+BT 34.016 327.430 Td /F1 12.0 Tf  [(Modifications to the above mentioned code were made in order to count traffic. Because counting has to be )] TJ ET
+BT 34.016 313.174 Td /F1 12.0 Tf  [(done only )] TJ ET
+BT 84.680 313.174 Td /F1 12.0 Tf  [(once)] TJ ET
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+84.680 310.474 m 107.336 310.474 l S
+BT 107.336 313.174 Td /F1 12.0 Tf  [( for each object, a tracker is added. This tracker is implemented using the )] TJ ET
+0.000 0.000 0.800 rg
+BT 461.924 313.174 Td /F1 12.0 Tf  [(motpy library)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+461.924 310.474 m 527.588 310.474 l S
+0.000 0.000 0.000 rg
+BT 527.588 313.174 Td /F1 12.0 Tf  [(. )] TJ ET
+BT 34.016 298.803 Td /F1 12.0 Tf  [(Objects are counted when passing through a certain zone to determine their direction. )] TJ ET
+BT 34.016 284.518 Td /F1 12.0 Tf  [(The tml_pi_code folder contains two models in )] TJ ET
+BT 264.332 284.518 Td /F2 12.0 Tf  [(.tflite)] TJ ET
+BT 291.320 284.518 Td /F1 12.0 Tf  [( format: _ssd_mn2_320.tflite_ and )] TJ ET
+BT 460.316 284.518 Td /F1 12.0 Tf  [(ssd)] TJ ET
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+460.316 281.818 m 475.652 281.818 l S
+BT 34.016 270.262 Td /F1 12.0 Tf  [(_mn2_160.tflite_ for a resolution of 320x320 and 160x160 respectively.)] TJ ET
+BT 34.016 235.363 Td /F2 18.0 Tf  [(Results)] TJ ET
+BT 34.016 204.742 Td /F1 12.0 Tf  [(For the 160x160 model, using the COCO API we obtained:)] TJ ET
+BT 34.016 178.371 Td /F2 12.0 Tf  [(mAP@IoU=0.5:0.95 \(COCO mAP\))] TJ ET
+BT 213.320 178.371 Td /F1 12.0 Tf  [( = 0.59)] TJ ET
+BT 34.016 163.971 Td /F2 12.0 Tf  [(mAP@IoU=0.5 \(VOC mAP\))] TJ ET
+BT 178.988 163.971 Td /F1 12.0 Tf  [( = 0.85)] TJ ET
+BT 34.016 135.286 Td /F1 12.0 Tf  [(Runs at )] TJ ET
+BT 73.352 135.286 Td /F2 12.0 Tf  [(5)] TJ ET
+BT 79.352 135.286 Td /F1 12.0 Tf  [( FPS on Raspberry Pi 4 with 4GB RAM.)] TJ ET
+BT 34.016 100.387 Td /F2 18.0 Tf  [(Used Set Up on Raspberry Pi)] TJ ET
+57.816 72.871 m 
+57.816 73.420 57.589 73.967 57.201 74.355 c
+56.812 74.744 56.266 74.971 55.716 74.971 c
+55.166 74.971 54.620 74.744 54.231 74.355 c
+53.842 73.967 53.616 73.420 53.616 72.871 c
+53.616 72.321 53.842 71.774 54.231 71.386 c
+54.620 70.997 55.166 70.771 55.716 70.771 c
+56.266 70.771 56.812 70.997 57.201 71.386 c
+57.589 71.774 57.816 72.321 57.816 72.871 c f
+BT 64.016 69.766 Td /F1 12.0 Tf  [(Raspberry Pi 4 4GB RAM)] TJ ET
+57.816 58.615 m 
+57.816 59.164 57.589 59.711 57.201 60.099 c
+56.812 60.488 56.266 60.715 55.716 60.715 c
+55.166 60.715 54.620 60.488 54.231 60.099 c
+53.842 59.711 53.616 59.164 53.616 58.615 c
+53.616 58.065 53.842 57.518 54.231 57.130 c
+54.620 56.741 55.166 56.515 55.716 56.515 c
+56.266 56.515 56.812 56.741 57.201 57.130 c
+57.589 57.518 57.816 58.065 57.816 58.615 c f
+BT 64.016 55.510 Td /F1 12.0 Tf  [(Raspberry Pi OS 32-bit version)] TJ ET
+endstream
+endobj
+23 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 24 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 168.3437 740.4775 224.0117 752.3575 ]
+>>
+endobj
+24 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://cocodataset.org/#detection-eval)
+>>
+endobj
+25 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 26 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 164.0117 711.9655 212.6597 723.8455 ]
+>>
+endobj
+26 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-models-install-coco)
+>>
+endobj
+27 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 28 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 463.6106 237.9797 475.4906 ]
+>>
+endobj
+28 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/TannerGilbert/Tensorflow-Lite-Object-Detection-with-the-Tensorflow-Object-Detection-API)
+>>
+endobj
+29 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 30 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 355.0346 89.0237 366.9146 ]
+>>
+endobj
+30 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi)
+>>
+endobj
+31 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 32 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 340.6346 326.3117 352.5146 ]
+>>
+endobj
+32 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi)
+>>
+endobj
+33 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 34 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 461.9237 312.0938 527.5877 323.9738 ]
+>>
+endobj
+34 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/wmuron/motpy)
+>>
+endobj
+35 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 37 0 R 39 0 R ]
+/Contents 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 4706 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+57.816 799.574 m 
+57.816 800.124 57.589 800.670 57.201 801.059 c
+56.812 801.448 56.266 801.674 55.716 801.674 c
+55.166 801.674 54.620 801.448 54.231 801.059 c
+53.842 800.670 53.616 800.124 53.616 799.574 c
+53.616 799.024 53.842 798.478 54.231 798.089 c
+54.620 797.701 55.166 797.474 55.716 797.474 c
+56.266 797.474 56.812 797.701 57.201 798.089 c
+57.589 798.478 57.816 799.024 57.816 799.574 c f
+BT 64.016 796.469 Td /F1 12.0 Tf  [(Python)] TJ ET
+57.816 785.318 m 
+57.816 785.868 57.589 786.414 57.201 786.803 c
+56.812 787.192 56.266 787.418 55.716 787.418 c
+55.166 787.418 54.620 787.192 54.231 786.803 c
+53.842 786.414 53.616 785.868 53.616 785.318 c
+53.616 784.768 53.842 784.222 54.231 783.833 c
+54.620 783.445 55.166 783.218 55.716 783.218 c
+56.266 783.218 56.812 783.445 57.201 783.833 c
+57.589 784.222 57.816 784.768 57.816 785.318 c f
+BT 64.016 782.213 Td /F1 12.0 Tf  [(TF Lite interpreter)] TJ ET
+57.816 771.062 m 
+57.816 771.612 57.589 772.158 57.201 772.547 c
+56.812 772.936 56.266 773.162 55.716 773.162 c
+55.166 773.162 54.620 772.936 54.231 772.547 c
+53.842 772.158 53.616 771.612 53.616 771.062 c
+53.616 770.512 53.842 769.966 54.231 769.577 c
+54.620 769.189 55.166 768.962 55.716 768.962 c
+56.266 768.962 56.812 769.189 57.201 769.577 c
+57.589 769.966 57.816 770.512 57.816 771.062 c f
+BT 64.016 767.957 Td /F1 12.0 Tf  [(OpenCV)] TJ ET
+57.816 756.806 m 
+57.816 757.356 57.589 757.902 57.201 758.291 c
+56.812 758.680 56.266 758.906 55.716 758.906 c
+55.166 758.906 54.620 758.680 54.231 758.291 c
+53.842 757.902 53.616 757.356 53.616 756.806 c
+53.616 756.256 53.842 755.710 54.231 755.321 c
+54.620 754.933 55.166 754.706 55.716 754.706 c
+56.266 754.706 56.812 754.933 57.201 755.321 c
+57.589 755.710 57.816 756.256 57.816 756.806 c f
+BT 64.016 753.701 Td /F1 12.0 Tf  [(motpy library for multiple object tracking)] TJ ET
+57.816 742.550 m 
+57.816 743.100 57.589 743.646 57.201 744.035 c
+56.812 744.424 56.266 744.650 55.716 744.650 c
+55.166 744.650 54.620 744.424 54.231 744.035 c
+53.842 743.646 53.616 743.100 53.616 742.550 c
+53.616 742.000 53.842 741.454 54.231 741.065 c
+54.620 740.677 55.166 740.450 55.716 740.450 c
+56.266 740.450 56.812 740.677 57.201 741.065 c
+57.589 741.454 57.816 742.000 57.816 742.550 c f
+BT 64.016 739.445 Td /F1 12.0 Tf  [(NumPy)] TJ ET
+57.816 728.294 m 
+57.816 728.844 57.589 729.390 57.201 729.779 c
+56.812 730.168 56.266 730.394 55.716 730.394 c
+55.166 730.394 54.620 730.168 54.231 729.779 c
+53.842 729.390 53.616 728.844 53.616 728.294 c
+53.616 727.744 53.842 727.198 54.231 726.809 c
+54.620 726.421 55.166 726.194 55.716 726.194 c
+56.266 726.194 56.812 726.421 57.201 726.809 c
+57.589 727.198 57.816 727.744 57.816 728.294 c f
+BT 64.016 725.189 Td /F1 12.0 Tf  [(labelmap.txt, provided in tml_pi_code folder)] TJ ET
+BT 34.016 698.818 Td /F1 12.0 Tf  [(Code is run in a virtual environment.)] TJ ET
+BT 34.016 684.418 Td /F1 12.0 Tf  [(Code can be executed using the TF Lite interpreter.)] TJ ET
+BT 34.016 670.018 Td /F1 12.0 Tf  [(For this reason it is not necessary to install the full TensorFlow package on the Raspberry Pi.)] TJ ET
+BT 34.016 655.618 Td /F1 12.0 Tf  [(More information on the lightweight TensorFlow runtime can be found here:)] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 641.333 Td /F1 12.0 Tf  [(Official TensorFlow Lite guide)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+34.016 638.633 m 184.328 638.633 l S
+0.000 0.000 0.000 rg
+BT 34.016 606.435 Td /F2 18.0 Tf  [(Requirements)] TJ ET
+BT 34.016 575.698 Td /F1 12.0 Tf  [(Follow tutorial of object detection API:)] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 561.298 Td /F1 12.0 Tf  [(TensorFlow Object Detection API guide)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 558.598 m 228.656 558.598 l S
+0.000 0.000 0.000 rg
+BT 34.016 547.013 Td /F1 12.0 Tf  [(This tutorial will guide you through the complete installation process of TensorFlow \(CPU or GPU, though )] TJ ET
+BT 34.016 532.757 Td /F1 12.0 Tf  [(GPU is advised\), the TensorFlow Object Detection API and the COCO API. You may wish to proceed )] TJ ET
+BT 34.016 518.386 Td /F1 12.0 Tf  [(cautiously when installing CUDA and cuDNN as updating your GPU drivers might be required!)] TJ ET
+BT 34.016 504.101 Td /F1 12.0 Tf  [(We strongly recommend working in a 'container'. Examples of this include, but are not limited to: Conda, )] TJ ET
+BT 34.016 489.845 Td /F1 12.0 Tf  [(Python virtual environment and Docker.)] TJ ET
+BT 34.016 463.589 Td /F2 12.0 Tf  [(Versions:)] TJ ET
+BT 82.676 463.589 Td /F1 12.0 Tf  [( TF GPU 2.1.0, Python 3.7.9, NumPy 1.17.4, cuDNN 7.6.5, cudatoolkit 10.1.243, CUDA 11.0, )] TJ ET
+BT 34.016 449.333 Td /F1 12.0 Tf  [(COCO API, TF Object Detection API)] TJ ET
+endstream
+endobj
+37 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 38 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 640.2535 184.3277 652.1335 ]
+>>
+endobj
+38 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.tensorflow.org/lite/guide/python)
+>>
+endobj
+39 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 40 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 560.2183 228.6557 572.0983 ]
+>>
+endobj
+40 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/index.html)
+>>
+endobj
+xref
+0 41
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000309 00000 n 
+0000000338 00000 n 
+0000000452 00000 n 
+0000000562 00000 n 
+0000008169 00000 n 
+0000008278 00000 n 
+0000008386 00000 n 
+0000008492 00000 n 
+0000008620 00000 n 
+0000008716 00000 n 
+0000008844 00000 n 
+0000008927 00000 n 
+0000009054 00000 n 
+0000009207 00000 n 
+0000009335 00000 n 
+0000009500 00000 n 
+0000009625 00000 n 
+0000009761 00000 n 
+0000009880 00000 n 
+0000016747 00000 n 
+0000016875 00000 n 
+0000016966 00000 n 
+0000017094 00000 n 
+0000017255 00000 n 
+0000017382 00000 n 
+0000017540 00000 n 
+0000017666 00000 n 
+0000017813 00000 n 
+0000017940 00000 n 
+0000018087 00000 n 
+0000018215 00000 n 
+0000018298 00000 n 
+0000018389 00000 n 
+0000023148 00000 n 
+0000023275 00000 n 
+0000023371 00000 n 
+0000023498 00000 n 
+trailer
+<<
+/Size 41
+/Root 1 0 R
+/Info 5 0 R
+>>
+startxref
+23634
+%%EOF
